@@ -184,3 +184,28 @@ svg{
     padding: 10px 20px;
     border-radius: 3px;
 }
+
+/* Donut chart */
+
+#chart {                                                      
+    height: 360px;                                            
+    position: relative;                                        
+    width: 360px;
+    display: block;
+    margin: auto;
+    }
+
+.tooltip1 {                                                  
+        background:none;                                                    
+        color: #333;                                          
+        display: none;                                            
+        font-size: 20px;
+        font-weight: 600;
+        left: 130px;                                                
+        padding: 10px;                                                
+        position: absolute;                                     
+        text-align: center;                                        
+        top: 95px;                                              
+        width: 80px;                                          
+        z-index: 10;                                    
+      }   
